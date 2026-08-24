@@ -22,7 +22,7 @@ Neste projeto, desenvolvi a estrutura completa do site da Agrovant utilizando HT
 
 ## Página publicada
 
-**[cole aqui o link da sua página no ar]**
+**[agrovant-beta.vercel.app]**
 
 ## Estrutura de pastas
 landing-page-drone/
