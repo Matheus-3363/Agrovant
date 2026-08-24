@@ -22,7 +22,7 @@ Neste projeto, desenvolvi a estrutura completa do site da Agrovant utilizando HT
 
 ## Página publicada
 
-**[cole aqui o link da sua página no ar]**
+**[agrovant-beta.vercel.app]**
 
 ## Estrutura de pastas
 landing-page-drone/
@@ -62,7 +62,7 @@ A página foi construída começando pelo celular. O CSS base atende telas peque
 ## Como rodar localmente
 
 ```bash
-git clone [url do seu repositório]  
+gh repo clone Matheus-3363/Agrovant
 cd landing-page-drone
 
 ## Créditos
