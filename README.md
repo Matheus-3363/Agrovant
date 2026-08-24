@@ -62,7 +62,7 @@ A página foi construída começando pelo celular. O CSS base atende telas peque
 ## Como rodar localmente
 
 ```bash
-git clone [url do seu repositório]  
+gh repo clone Matheus-3363/Agrovant
 cd landing-page-drone
 
 ## Créditos
