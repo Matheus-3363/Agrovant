@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGROVANT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">AGROVANT</a>
+
+      <nav class="nav">
+        <a href="#funcoes">FUNÇÕES</a>
+        <a href="#especificacoes">ESPECIFICAÇÕES</a>
+        <a href="#depoimentos">DEPOIMENTOS</a>
+      </nav>
+
+      <a href="#contato" class="btn btn--primary btn--sm">AGENDE</a>
+    </div>
+  </header>
+
+  <!-- CAPA (HERO) -->
+  <section id="inicio" class="hero">
+    <video class="hero__video" autoplay muted loop playsinline>
+      <source src="assets/video_1.mp4" type="video/mp4">
+    </video>
+    <div class="hero__overlay"></div>
+
+    <div class="container hero__content">
+      <h1 class="hero__title">AGROVANT</h1>
+      <p class="hero__subtitle">O drone inteligente para<br>silvicultura de alta performance</p>
+      <a href="#contato" class="btn btn--primary">QUERO UMA DEMONSTRAÇÃO</a>
+    </div>
+  </section>
+
+  <!-- APRESENTAÇÃO E CHAMADA -->
+  <section class="intro">
+    <div class="container">
+      <h2 class="intro__title">Monitore e aplique defensivos agrícolas com<br>precisão, economia e segurança ambiental.</h2>
+
+      <ul class="intro__tags">
+        <li>🚀 Rápido</li>
+        <li>📡 Inteligente</li>
+        <li>🌱 Sustentável</li>
+      </ul>
+
+      <p class="intro__cta-text">👉 Agende agora uma demonstração gratuita na sua fazenda!</p>
+
+      <div class="intro__buttons">
+        <button class="btn btn--outline">Assistir vídeo ►</button>
+        <button class="btn btn--outline btn--ghost">Reportagem</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECURSOS E DEMONSTRAÇÃO DO DRONE -->
+  <section id="funcoes" class="showcase">
+    <div class="showcase__media">
+      <video class="showcase__video" autoplay muted loop playsinline>
+        <source src="assets/video_2.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="features">
+      <div class="container features__grid">
+        <div class="feature">
+          <h3>Monitoramento aéreo em tempo real</h3>
+          <p>das áreas de cultivo, identificando pragas, falhas de plantio e estresse hídrico.</p>
+        </div>
+        <div class="feature">
+          <h3>Aplicação localizada de defensivos</h3>
+          <p>com mapeamento por GPS e sensores de precisão.</p>
+        </div>
+        <div class="feature">
+          <h3>Redução de custos com insumos</h3>
+          <p>e mão de obra.</p>
+        </div>
+        <div class="feature">
+          <h3>Cobertura de grandes áreas em poucos minutos</h3>
+          <p>mesmo em terrenos acidentados.</p>
+        </div>
+        <div class="feature" id="especificacoes">
+          <h3>Relatórios automatizados</h3>
+          <p>para análise técnica e tomada de decisão rápida.</p>
+        </div>
+        <div class="feature">
+          <h3>E muito mais...</h3>
+          <p>tecnologia contínua para o campo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section id="depoimentos" class="testimonial">
+    <div class="container testimonial__grid">
+      <div class="testimonial__quote">
+        <h2>Quem já testou, recomenda</h2>
+        <p class="testimonial__text">"Em poucas semanas, conseguimos identificar e tratar áreas críticas que estavam comprometendo nossa produtividade."</p>
+        <p class="testimonial__author">Carlos Mendes, Engenheiro Florestal, MG</p>
+      </div>
+
+      <div class="testimonial__avatar">
+        <img src="assets/carlao.png" alt="Carlos Mendes">
+      </div>
+
+      <div class="testimonial__stats">
+        <p class="stars">★★★★★</p>
+        <h2 class="stats__number">Mais de 250 fazendas</h2>
+        <p class="stats__label">atendidas em todo o Brasil.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contact">
+    <div class="container contact__grid">
+      <div class="contact__info">
+        <h2>🚁 Pronto para ver de perto?</h2>
+        <p class="contact__highlight">Nossa equipe técnica vai até você!</p>
+        <p class="contact__text">Faça um teste gratuito com nosso drone em operação real no seu plantio florestal. Sem compromisso, 100% prático.</p>
+        <p class="contact__detail">📞 Suporte: +55 (66) 03564-2245</p>
+        <p class="contact__detail">📍 Atendemos todo o sudeste e centro-oeste.</p>
+      </div>
+
+      <form class="contact__form" onsubmit="return false;">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Seu nome">
+
+        <label for="celular">Celular:</label>
+        <input type="tel" id="celular" placeholder="(00) 00000-0000">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="seu@email.com">
+
+        <button type="submit" class="btn btn--primary btn--block">AGENDAR UMA DEMONSTRAÇÃO</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; AGROVANT. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
